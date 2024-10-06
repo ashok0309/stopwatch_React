@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:url("./src/assets/1.jpg");
+  background-size: cover;
+}
+
+.stopwatch {
+  background: #90a5f8;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+ 
+}
+
+.time-display {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.start {
+  background-color: #28a745;
+}
+
+.stop {
+  background-color: #dc3545;
+}
+
+.reset {
+  background-color: #ffc107;
+}
+
+.lap {
+  background-color: #007bff;
+}
+
+.laps {
+  margin-top: 20px;
+}
+
+.laps ul {
+  padding: 0;
+  list-style: none;
+}
+
+.laps li {
+  background: #f1f1f1;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
